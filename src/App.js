@@ -3,6 +3,7 @@ import { QuienSoy } from "./pages/quiensoy";
 import { Routes, Route, HashRouter } from "react-router-dom";
 import { Portafolio } from "./pages/portafolio";
 import { Habilidades } from "./pages/habilidades";
+import { Contacto } from "./pages/contacto";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
             <Route path="/" element={<QuienSoy />} exact={true} />
             <Route path="/port" element={<Portafolio />} />
             <Route path="/habilidades" element={<Habilidades />} />
+            <Route path="/contacto" element={<Contacto />} />
           </Routes>
         </div>
       </HashRouter>

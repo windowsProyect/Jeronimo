@@ -33,7 +33,7 @@ export const Habilidades = () => {
         scroll2="habilidades"
         scrollText1="Inicio"
         scrollText2="Habilidades"
-        titleText="Algunas tecnoligias que manejo"
+        titleText="Algunas tecnologias que manejo"
         description="Front-end, back-end y diseño"
         infoImg={proyetos}
         textInfo=""
