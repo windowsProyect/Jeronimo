@@ -9,7 +9,8 @@ function App() {
     <div className="App" name="header">
       <HashRouter>
         <div>
-          <Routes>
+          <Routes
+          >
             <Route path="/" element={<QuienSoy />} exact={true} />
             <Route path="/port" element={<Portafolio />} />
             <Route path="/habilidades" element={<Habilidades />} />
